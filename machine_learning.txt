@@ -1,0 +1,14 @@
+Machine learning allows systems to learn patterns from data.
+
+Important concepts include:
+
+supervised learning
+unsupervised learning
+classification
+regression
+clustering
+feature engineering
+model evaluation
+overfitting
+underfitting
+cross validation

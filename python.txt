@@ -1,0 +1,10 @@
+Python is a high-level programming language.
+
+Important Python concepts include:
+variables, data types, functions, classes,
+inheritance, exception handling, decorators,
+generators, modules and packages.
+
+Python is commonly used for:
+AI, machine learning, automation,
+backend development and data analysis.

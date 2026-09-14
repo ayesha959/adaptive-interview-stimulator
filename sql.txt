@@ -1,0 +1,20 @@
+SQL is used to communicate with relational databases.
+
+Important SQL concepts include:
+
+SELECT
+WHERE
+GROUP BY
+ORDER BY
+JOIN
+HAVING
+SUBQUERY
+WINDOW FUNCTIONS
+INDEXING
+
+Common joins include:
+
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL JOIN

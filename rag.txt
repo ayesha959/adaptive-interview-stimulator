@@ -1,0 +1,12 @@
+RAG means Retrieval Augmented Generation.
+
+A RAG system generally contains:
+
+1. Documents
+2. Chunking
+3. Embeddings
+4. Vector database
+5. Retrieval
+6. LLM generation
+
+RAG allows an LLM to answer questions using external knowledge.

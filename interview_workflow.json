@@ -1,0 +1,44 @@
+{
+  "name": "Adaptive Interview",
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "Interview Form",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2,
+      "position": [
+        300,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:8501",
+        "sendBody": true,
+        "contentType": "json",
+        "jsonBody": "={{ $json }}"
+      },
+      "name": "Start Interview",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        600,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Interview Form": {
+      "main": [
+        [
+          {
+            "node": "Start Interview",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
